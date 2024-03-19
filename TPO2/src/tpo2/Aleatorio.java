@@ -14,11 +14,14 @@ public class Aleatorio {
     public Aleatorio(double num) {
         this.num = num*Math.random();
     }
+   
 
     public double getNum() {
         return num;
     }
-    
-    
-    
+     
+  
 }
+    
+    
+
