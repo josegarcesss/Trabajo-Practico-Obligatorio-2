@@ -17,6 +17,11 @@ public class TPO2 {
         System.out.println("Segundo número: " + suma.getNum2());
        suma.sumarNumeros();
        
+       //Modifica por Facundo Biel
+        System.out.println("---------------------------------------------------------");
+        Restar resta = new Restar(50, 50);
+        resta.resultadoResta();
+       
     }
     
 }
